@@ -11,6 +11,24 @@ body{
     margin-right: auto;
 }
 
+.social {
+    background-color: #25D366;
+    width:50px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    margin-top: 35vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+}
+
+.social-icon {
+    margin-top:5px;
+    color: white;
+    fill: currentColor;
+}
+
 .whole {
     display: flex;
     flex-direction: column;
