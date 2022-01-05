@@ -1,0 +1,323 @@
+body{
+    background-image: linear-gradient(to right, #25D366, white);
+}
+.outer-case {
+    background-color: black;
+    height: auto;
+    width: 350px;
+    position: relative;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whole {
+    display: flex;
+    flex-direction: column;
+}
+
+.explanation {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 30px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.inner-case {
+    background-color: white;
+    position: relative;
+    height: auto;
+    width: 340px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.phone-nav-bar {
+    background-color: rgb(56, 52, 52);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 30px;
+}
+
+.detail-nav-bar {
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+}
+
+.notification-bar {
+    display: flex;
+    width: 50%;
+}
+
+.notification-bar p {
+    margin-left:10px;
+    margin-right:12px;
+    margin-bottom: auto;
+    margin-top: 8.45px;
+    font-size: 14px;
+}
+
+.signal-bar {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left:120px;
+}
+
+.battery-bar {
+    font-size: 14px;
+    margin-top:8.5px;
+    margin-right: -10px;
+}
+
+.battery {
+    margin-right: -10px;
+    transform:rotate(270deg);
+}
+
+.signal {
+    margin-right:-px;
+}
+
+.wifi {
+    padding-left: 30px;
+}
+
+.camera {
+    background-color: black;
+    width: 14%;
+    height: 22px;
+    margin-top :4px;
+    margin-right: 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.camera-lens-1, .camera-lens-2 {
+    width: 17px;
+    color: rgb(33, 33, 39);
+    fill: currentColor;
+}
+
+.screen {
+    width: 12px;
+}
+
+.icon {
+    margin-left: 4px;
+}
+
+.date {
+    padding-bottom: 50px;
+}
+
+.speaker {
+    position: absolute;
+    left: 0;
+    margin-left: 130px;
+    height: 5px;
+    width:80px;
+    background-color: rgb(43, 39, 39);
+    border-radius: 10px;
+    margin-top: -4px;
+
+}
+
+/*app body*/
+.topside, .downside {
+    font-family: "roboto";
+}
+
+.app-title {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    background-color: rgb(56, 52, 52);
+}
+
+.logo {
+    height: 30px;
+    margin-right: 180px;
+    margin-left: 10px;
+    font-weight: 500;
+    color: grey;
+}
+
+.app-title-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-search-img {
+    color:grey;
+    fill: currentColor;
+}
+
+.magnifier, .kebab {
+    width: 17px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.magnifier {
+    margin-top :-3px
+}
+
+.main-menu {
+    background-color:rgb(56, 52, 52);
+    display: flex;
+}
+
+.camera-logo {
+    width: 20%;
+    margin: auto auto auto 5px;
+}
+
+.main-menu-text {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.menu-text {
+    font-size: 14px;
+    color: grey;
+    margin-left: -30px;
+    font-weight: 500;
+}
+
+.menu-highlight {
+    color: #25D366;
+}
+
+.line {
+    position: absolute;
+    width: 100px;
+    background-color: #25D366;
+    height: 5px;
+    right: 0;
+    margin-top: -5px;
+}
+
+.camera-logo-icon {
+    color: grey;
+    fill: currentColor;
+    width: 25px;
+}
+
+/*downside*/
+.downside {
+    background-color: #0f130f;
+    height: 440px;
+    color: white;
+    padding-top: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.user {
+    display: flex;
+    margin-top: 2px;
+}
+
+.prof-pict {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.phone-icon {
+    color: #25D366;
+    fill: currentColor;
+    width: 20px;
+    margin-right: 5px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.caller {
+    margin-top: 5px;
+    margin-left: 8px;
+    font-size: 15px;
+}
+
+.caller-detail {
+    display: flex;
+    margin-left: 8px;
+}
+
+.caller-time {
+    font-size: 12px;
+    color: grey;
+    margin-top:4px;
+}
+
+.arrow {
+    color: #25D366;
+    fill: currentColor;
+    width: 12px;
+    transform: rotate(40deg);
+    margin-right: 2px;
+    margin-bottom: 6px;
+}
+
+/*footer*/
+.bottom-button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    fill: currentColor;
+    margin-top : 8px;
+}
+
+.bottom-icon {
+    width: 18px;
+}
+
+.explanation {
+    margin-left:360px;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
